@@ -1,0 +1,45 @@
+h1{
+    color:rgba(96, 177, 252, .801);/* 文字顏色 */
+    font-size: 35px;
+}
+
+h2{
+color: #02adfc;
+font-size: 20px;
+}
+h3{
+    color: #2d3e86;
+    font-size: 30px;
+    }
+#a1 {
+    color: #fd7fd3;
+}
+.c1 {
+    color: #eb6632e0;
+    font-size: 30px;
+}
+.text-lg {
+    font-size: 60px;
+    background: rgba(255, 255, 0, .7);
+}
+
+h3:hover{
+    color: #7fc4fde0;
+    font-size: 45px
+}
+
+h1:hover{
+    color: hsla(313, 96%, 82%, .5);
+}
+
+h2:hover{
+    background: rgba(255, 255, 0, .7);
+}
+
+紅色的按鈕:hover{
+    background: #eb6632e0;  /*按鈕顏色*/         
+}
+紅色的按鈕
+:active{
+    background: #eb6632e0;  /*按鈕顏色*/
+}   
