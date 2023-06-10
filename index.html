@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- 外部樣式定義整個網站 -->
+    <style>
+        h2 {
+            color: red;
+        }
+    </style>
+    <!-- 頁面(內部)樣式針對單一頁面 -->
+</head>
+<body>
+    <h2>Title</h2>
+    <h2 style="font-size: 80px;">Heading 2</h2><!--行內樣式只針對單一元素-->
+
+    <p id="red" class="text-lg text-blue">Hello 1</p><!--元件可以同時賦予id跟class-->
+    <p class="text-lg text-blue text-yellow">Hello 2</p><!--多class，中間空一格-->
+    <!-- 一個id只能在同網頁用一次，一個元件只能用一個id -->
+    <p>Hello 3</p>
+    <!-- 權重：id > class > HTML tag -->
+
+    
+</body>
+</html>
