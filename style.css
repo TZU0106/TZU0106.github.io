@@ -1,0 +1,26 @@
+h1 {
+    color: green; /* #fff = #ffffff ; 文字顏色 */
+    font-size: 50px; /* 文字大小 */
+}
+#red {
+    color: red;
+}
+.text-lg {
+    font-size: 60px;
+    background: yellow;
+}
+.text-blue {
+    color: blue;
+}
+.text-yellow {
+    color: yellow; /*後者優先*/
+}
+p {
+    color: green;
+    font-size: 60px;
+}
+
+
+/* {} 大括號 */
+/* [] 中括號 */
+/* () 小括號 */
